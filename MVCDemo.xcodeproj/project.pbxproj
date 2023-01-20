@@ -13,6 +13,11 @@
 		8076B8FD2919066200A760D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8076B8FB2919066200A760D6 /* Main.storyboard */; };
 		8076B8FF2919066500A760D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8076B8FE2919066500A760D6 /* Assets.xcassets */; };
 		8076B9022919066500A760D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8076B9002919066500A760D6 /* LaunchScreen.storyboard */; };
+		8076B90A291906B800A760D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076B909291906B800A760D6 /* SecondViewController.swift */; };
+		80791F1C291A427F005B69D3 /* CellEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80791F1A291A427F005B69D3 /* CellEmployee.swift */; };
+		80791F1D291A427F005B69D3 /* CellEmployee.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80791F1B291A427F005B69D3 /* CellEmployee.xib */; };
+		80791F1F291A4531005B69D3 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80791F1E291A4531005B69D3 /* Employee.swift */; };
+		80A649E8291BDAB9009A680A /* BackDataPasingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A649E7291BDAB9009A680A /* BackDataPasingProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8076B8FE2919066500A760D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8076B9012919066500A760D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8076B9032919066500A760D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8076B909291906B800A760D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		80791F1A291A427F005B69D3 /* CellEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellEmployee.swift; sourceTree = "<group>"; };
+		80791F1B291A427F005B69D3 /* CellEmployee.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellEmployee.xib; sourceTree = "<group>"; };
+		80791F1E291A4531005B69D3 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		80A649E7291BDAB9009A680A /* BackDataPasingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackDataPasingProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				8076B8F52919066200A760D6 /* AppDelegate.swift */,
 				8076B8F72919066200A760D6 /* SceneDelegate.swift */,
-				8076B8F92919066200A760D6 /* ViewController.swift */,
 				8076B8FB2919066200A760D6 /* Main.storyboard */,
+				80791F1A291A427F005B69D3 /* CellEmployee.swift */,
+				80791F1B291A427F005B69D3 /* CellEmployee.xib */,
+				80791F1E291A4531005B69D3 /* Employee.swift */,
+				8076B909291906B800A760D6 /* SecondViewController.swift */,
+				8076B8F92919066200A760D6 /* ViewController.swift */,
+				80A649E7291BDAB9009A680A /* BackDataPasingProtocol.swift */,
 				8076B8FE2919066500A760D6 /* Assets.xcassets */,
 				8076B9002919066500A760D6 /* LaunchScreen.storyboard */,
 				8076B9032919066500A760D6 /* Info.plist */,
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8076B9022919066500A760D6 /* LaunchScreen.storyboard in Resources */,
+				80791F1D291A427F005B69D3 /* CellEmployee.xib in Resources */,
 				8076B8FF2919066500A760D6 /* Assets.xcassets in Resources */,
 				8076B8FD2919066200A760D6 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8076B90A291906B800A760D6 /* SecondViewController.swift in Sources */,
+				80791F1F291A4531005B69D3 /* Employee.swift in Sources */,
+				80A649E8291BDAB9009A680A /* BackDataPasingProtocol.swift in Sources */,
 				8076B8FA2919066200A760D6 /* ViewController.swift in Sources */,
 				8076B8F62919066200A760D6 /* AppDelegate.swift in Sources */,
+				80791F1C291A427F005B69D3 /* CellEmployee.swift in Sources */,
 				8076B8F82919066200A760D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
